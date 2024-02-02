@@ -13,15 +13,15 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<div class="container">
-				<div className="row">
-				<Jumbotron />
-				</div>
-				<div class="row p-5 ">
-					<div class="col-lg-2 col-md-5 col-sm-11 m-2"><Card/></div>
-					<div class="col-lg-2 col-md-5 col-sm-11 m-2"><Card/></div>
-					<div class="col-lg-2 col-md-5 col-sm-11 m-2"><Card/></div>
-					<div class="col-lg-2 col-md-5 col-sm-11 m-2"><Card/></div>
-				</div>
+					<div className="row p-2">
+						<Jumbotron />
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-11 my-5"><Card /></div>
+						<div class="col-lg-3 col-md-6 col-sm-11 my-5"><Card /></div>
+						<div class="col-lg-3 col-md-6 col-sm-11 my-5"><Card /></div>
+						<div class="col-lg-3 col-md-6 col-sm-11 my-5"><Card /></div>
+					</div>
 			</div>
 			<MyFooter />
 		</div>
