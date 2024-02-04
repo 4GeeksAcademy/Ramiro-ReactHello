@@ -18,13 +18,13 @@ function Navbar() {
                                         <a className="nav-link text-white">Home <span className="sr-only">(current)</span></a>
                                     </li>
                                     <li className="nav-item ">
-                                        <a className="nav-link text-white-50">Features</a>
+                                        <a className="nav-link text-white-50">About</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link text-white-50">Pricing</a>
+                                        <a className="nav-link text-white-50">Services</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link text-white-50">Disabled</a>
+                                        <a className="nav-link text-white-50">Contact</a>
                                     </li>
                                 </ul>
                             </div>
